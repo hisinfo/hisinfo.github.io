@@ -12,7 +12,7 @@ let day4 = formatDate(new Date(new Date().setDate(new Date().getDate() + 32)));
 eventDates[day4] = ["Final Exams"];
 let day5 = formatDate(new Date(new Date().setDate(new Date().getDate() + 45)));
 eventDates[day5] = ["Closing Day/Graduation Ceremony"];
-let day6 = formatDate(new Date(new Date().setDate(new Date().getDate() + 49)));
+let day6 = formatDate(new Date(new Date().setDate(new Date().getDate() + 48)));
 eventDates[day6] = ["Christmas"];
 
 // set maxDates
