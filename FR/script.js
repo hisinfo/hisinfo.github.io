@@ -1,20 +1,20 @@
 // generate events
 var eventDates = {};
-let day2 = formatDate(new Date(new Date().setDate(new Date().getDate() + 17)));
+let day2 = formatDate(new Date(new Date().setDate(new Date().getDate() + 15)));
 eventDates[day2] = ["Transfer Entrance Exam"];
-let day7 = formatDate(new Date(new Date().setDate(new Date().getDate() + 23)));
+let day7 = formatDate(new Date(new Date().setDate(new Date().getDate() + 21)));
 eventDates[day7] = ["SKAC STEM Fair"];
-let day1 = formatDate(new Date(new Date().setDate(new Date().getDate() + 26)));
+let day1 = formatDate(new Date(new Date().setDate(new Date().getDate() + 24)));
 eventDates[day1] = ["Final Exams"];
-let day3 = formatDate(new Date(new Date().setDate(new Date().getDate() + 27)));
+let day3 = formatDate(new Date(new Date().setDate(new Date().getDate() + 25)));
 eventDates[day3] = ["Final Exams"];
-let day4 = formatDate(new Date(new Date().setDate(new Date().getDate() + 28)));
+let day4 = formatDate(new Date(new Date().setDate(new Date().getDate() + 26)));
 eventDates[day4] = ["Final Exams"];
-let day5 = formatDate(new Date(new Date().setDate(new Date().getDate() + 44)));
+let day5 = formatDate(new Date(new Date().setDate(new Date().getDate() + 42)));
 eventDates[day5] = ["Closing Day/Graduation Ceremony"];
-let day6 = formatDate(new Date(new Date().setDate(new Date().getDate() + 47)));
+let day6 = formatDate(new Date(new Date().setDate(new Date().getDate() + 45)));
 eventDates[day6] = ["Christmas"];
-let day8 = formatDate(new Date(new Date().setDate(new Date().getDate() + 41)));
+let day8 = formatDate(new Date(new Date().setDate(new Date().getDate() + 39)));
 eventDates[day8] = ["Variety Show"];
 
 // set maxDates
